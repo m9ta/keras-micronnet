@@ -5,6 +5,10 @@ Keras implementation of MicronNet from the paper "MicronNet: A Highly Compact De
 
 ## Results
 
+Used dataset: [The German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb)
+* Number of training samples: 39209
+* Number of testing samples: 12630
+
 * Categorical accuracy achieved on the test set - 97.62%;
 * Timings of evaluation on the test set with a batch size of 50 (based on 10 runs):
   * Google Colab CPU avg. time - 34.4 sec (best of 3);
@@ -14,6 +18,11 @@ Keras implementation of MicronNet from the paper "MicronNet: A Highly Compact De
 
 
 ## Результаты
+
+Используемый датасет: [The German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb)
+* Количество примеров в обучающей выборке: 39209
+* Количество примеров в тестовой выборке: 12630
+
 * Лучшая модель демонстрирует качество классификации порядка 97.62%;
 * Время работы классификатора - предсказание полной тестовой выборки с размером батча 50 (на основании 10 измерений):
   * Среднее время на CPU в Google Colab - 34.4 сек. (best of 3);
