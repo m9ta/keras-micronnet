@@ -3,11 +3,14 @@
 
 Keras implementation of MicronNet from the paper "MicronNet: A Highly Compact Deep Convolutional Neural Network Architecture for Real-time Embedded Traffic Sign Classification" (https://arxiv.org/pdf/1804.00497v3.pdf)
 
-## Results
+## Dataset
 
 Used dataset: [The German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb)
 * Number of training samples: 39209
 * Number of testing samples: 12630
+
+
+## Results
 
 * Categorical accuracy achieved on the test set - 97.62%;
 * Timings of evaluation on the test set with a batch size of 50 (based on 10 runs):
@@ -18,10 +21,6 @@ Used dataset: [The German Traffic Sign Recognition Benchmark](http://benchmark.i
 
 
 ## Результаты
-
-Используемый датасет: [The German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb)
-* Количество примеров в обучающей выборке: 39209
-* Количество примеров в тестовой выборке: 12630
 
 * Лучшая модель демонстрирует качество классификации порядка 97.62%;
 * Время работы классификатора - предсказание полной тестовой выборки с размером батча 50 (на основании 10 измерений):
